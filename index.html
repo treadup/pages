@@ -1,1 +1,14 @@
-<h1>Hello</h1>
+<html>
+    <head>
+        <script src="https://www.henriktreadup.com/static/website/js/storage.js"></script>
+    </head>
+    <body>
+        <h1>Local Storage Test</h1>
+        <script>
+            function ready() {
+                console.log("Local storage available: ", isLocalStorageAvailable())
+            }
+            document.addEventListener("DOMContentLoaded", ready);
+        </script>
+    </body>
+</html>
